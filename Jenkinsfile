@@ -1,6 +1,6 @@
 node{
    stage('SCM Checkoutt'){
-   git 'https://github.com/febyjose/deploymentmvntomcat'
+   git 'https://github.com/preetham159/TomcatDeployment'
    }
    stage('Build'){
    sh 'mvn clean package'

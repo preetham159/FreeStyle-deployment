@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('SCM Checkout') {
             steps {
-               git 'https://github.com/preetham159/TomcatDeployment'
+               git 'https://github.com/preetham159/FreeStyle-deployment'
             }
         }
         stage('Build using maven') {

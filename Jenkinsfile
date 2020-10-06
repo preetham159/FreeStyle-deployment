@@ -14,7 +14,7 @@ pipeline {
         stage('Deployment') {
             steps {
                sshagent(['tomcat8']) {
-            sh 'scp target/*.war ubuntu@13.127.180.117:/opt/tomcat8/webapps/'
+            sh 'scp target/*.war ubuntu@172.31.39.138:/opt/tomcat8/webapps/'
              }
             }
         }

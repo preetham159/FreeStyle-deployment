@@ -11,7 +11,7 @@
       <img src="http://www.learntek.org/wp-content/uploads/2017/08/jenkins_image.png" alt="Spidertocat"
            class="img-responsive center-block" style="width:300px"/>
       <h1 class="text-center">First Deployment</h1>
-      <h2 class="text-center">Deployment has done by Preetham P</h2>
+      <h2 class="text-center">Successfully completed the freestyle deployment</h2>
   </div>
 </body>
 </html>
